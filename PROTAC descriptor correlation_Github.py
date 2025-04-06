@@ -13,7 +13,7 @@ import seaborn as sns
 import math
 
 # Define the path for the descriptor file
-descriptor_file = 'descriptors_all_Kristen Drugs_with_NHISS.csv'
+descriptor_file = 'descriptors_all_Drugs_with_NHISS.csv'
 
 # Load and prepare descriptor data
 df = pd.read_csv(descriptor_file).sort_values('Name').reset_index(drop=True)
