@@ -13,7 +13,7 @@ from datetime import datetime
 from tqdm import tqdm
 
 # Read the input CSV file that contains drug names and SMILES
-input_filename = 'NC1_INPUT_Kristen drug list.csv'
+input_filename = 'NC1_INPUT_drug list.csv'
 drug_list = pd.read_csv(input_filename)
 
 # Initialize Mordred calculator
